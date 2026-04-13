@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@theme {
+  --color-brandBlack: #121212;
+}
