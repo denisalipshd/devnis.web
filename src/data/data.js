@@ -17,6 +17,7 @@ import imgCoffee from "../assets/img/2.png";
 import imgFoodie from "../assets/img/3.png";
 import imgLumina from "../assets/img/4.png";
 import imgDelizia from "../assets/img/5.png";
+import imgKimoci from "../assets/img/6.png";
 
 export const projects = [
   {
@@ -50,10 +51,17 @@ export const projects = [
   {
     id: 5,
     title: "Delizia Catering",
-    category: "landing-page",
+    category: "company-profile",
     desc: "Website katering dengan katalog menu lengkap dan daftar paket, dilengkapi fitur pesan langsung via WhatsApp.",
     preview: imgDelizia,
   },
+  {
+    id: 6,
+    title: "Kimoci Network",
+    category: "company-profile",
+    desc: "Website company profile untuk perusahaan IT dengan fokus pada layanan digital dan portofolio proyek, dilengkapi fitur kontak langsung via WhatsApp.",
+    preview: imgKimoci,
+  }
 ];
 
 export const faqs = [
