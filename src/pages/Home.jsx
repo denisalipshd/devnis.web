@@ -6,8 +6,13 @@ import keunggulanKami from "../assets/img/keunggulan-kami.png";
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  const filteredProjects =
-    selectedCategory === "all" ? projects : projects.filter((p) => p.category === selectedCategory);
+  const filteredProjects = (
+    selectedCategory === "all" 
+      ? [...projects] 
+      : projects.filter((p) => p.category === selectedCategory)
+  )
+  .sort((a, b) => b.id - a.id)
+  .slice(0, 6);
 
   const handleFAQToggle = (index) => {
     const faqItems = document.querySelectorAll(".faq-item");

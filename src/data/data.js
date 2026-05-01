@@ -18,6 +18,7 @@ import imgFoodie from "../assets/img/3.png";
 import imgLumina from "../assets/img/4.png";
 import imgDelizia from "../assets/img/5.png";
 import imgKimoci from "../assets/img/6.png";
+import imgJMTravel from "../assets/img/7.png";
 
 export const projects = [
   {
@@ -61,6 +62,13 @@ export const projects = [
     category: "company-profile",
     desc: "Website company profile untuk perusahaan IT dengan fokus pada layanan digital dan portofolio proyek, dilengkapi fitur kontak langsung via WhatsApp.",
     preview: imgKimoci,
+  },
+  {
+    id: 7,
+    title: "JM Travel",
+    category: "company-profile",
+    desc: "Website company profile untuk perusahaan travel dengan fokus pada layanan booking dan informasi destinasi, dilengkapi fitur kontak langsung via WhatsApp.",
+    preview: imgJMTravel,
   }
 ];
 

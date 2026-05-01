@@ -4,8 +4,12 @@ import { projects, categories } from "../data/data";
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  const filteredProjects =
-    selectedCategory === "all" ? projects : projects.filter((p) => p.category === selectedCategory);
+  const filteredProjects = (
+    selectedCategory === "all" 
+      ? [...projects] 
+      : projects.filter((p) => p.category === selectedCategory)
+  )
+  .sort((a, b) => b.id - a.id);
 
   return (
     <div>
