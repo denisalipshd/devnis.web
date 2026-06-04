@@ -27,6 +27,7 @@ export const projects = [
     category: "landing-page",
     desc: "Landing page layanan laundry dengan fitur integrasi WhatsApp Order untuk pemesanan jasa antar-jemput.",
     preview: imgLaundry,
+    link: "https://laundry-monster.vercel.app/",
   },
   {
     id: 2,
@@ -34,6 +35,7 @@ export const projects = [
     category: "landing-page",
     desc: "Website katalog kopi dengan fokus pada visual estetik dan manajemen menu.",
     preview: imgCoffee,
+    link: "https://denisalipshd.github.io/website-coffee/",
   },
   {
     id: 3,
@@ -41,6 +43,7 @@ export const projects = [
     category: "landing-page",
     desc: "Website landing page yang menjual makanan sehat khusus diet.",
     preview: imgFoodie,
+    link: "https://denisalipshd.github.io/foodie-restaurant/",
   },
   {
     id: 4,
@@ -48,6 +51,7 @@ export const projects = [
     category: "e-commerce",
     desc: "Sistem reservasi dan pemesanan restoran yang terhubung langsung ke WhatsApp admin.",
     preview: imgLumina,
+    link: "https://lumina-dining.vercel.app/",
   },
   {
     id: 5,
@@ -55,6 +59,7 @@ export const projects = [
     category: "company-profile",
     desc: "Website katering dengan katalog menu lengkap dan daftar paket, dilengkapi fitur pesan langsung via WhatsApp.",
     preview: imgDelizia,
+    link: "https://devnis-web.github.io/delizia/"
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ export const projects = [
     category: "company-profile",
     desc: "Website company profile untuk perusahaan IT dengan fokus pada layanan digital dan portofolio proyek, dilengkapi fitur kontak langsung via WhatsApp.",
     preview: imgKimoci,
+    link: "https://denisalipshd.github.io/kimoci-net/"
   },
   {
     id: 7,
@@ -69,7 +75,8 @@ export const projects = [
     category: "company-profile",
     desc: "Website company profile untuk perusahaan travel dengan fokus pada layanan booking dan informasi destinasi, dilengkapi fitur kontak langsung via WhatsApp.",
     preview: imgJMTravel,
-  }
+    link: "https://devnis-web.github.io/jm-travel/"
+  },
 ];
 
 export const faqs = [
