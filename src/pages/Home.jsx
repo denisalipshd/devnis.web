@@ -35,12 +35,12 @@ const Home = () => {
       <div>
         <header className="relative pt-40 pb-40 px-6">
           <div className="max-w-7xl mx-auto text-center">
-            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-600 text-xs font-bold tracking-widest uppercase mb-6">
+            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-900 text-xs font-bold tracking-widest uppercase mb-6">
               Solusi Web Generasi Baru
             </span>
             <h1 className="text-5xl md:text-8xl font-extrabold tracking-tight mb-8 leading-[1.1]">
               Kami membangun <br />
-              <span className="text-blue-600">karya digital.</span>
+              <span className="text-blue-900">karya digital.</span>
             </h1>
             <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
               Devnis adalah agensi butik yang berfokus pada pembuatan aplikasi web berperforma tinggi yang menjembatani
@@ -81,9 +81,9 @@ const Home = () => {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
               <div>
-                <span className="text-blue-600 font-bold tracking-widest uppercase text-xs">Keunggulan Kami</span>
+                <span className="text-blue-900 font-bold tracking-widest uppercase text-xs">Keunggulan Kami</span>
                 <h2 className="text-4xl md:text-5xl font-extrabold mt-4 mb-6 leading-tight">
-                  Bukan sekadar website, tapi <span className="text-gray-400">aset pertumbuhan.</span>
+                  Bukan sekadar website, tapi <span className="text-blue-900">aset pertumbuhan.</span>
                 </h2>
                 <p className="text-gray-500 text-lg mb-10 leading-relaxed">
                   Kami menggabungkan estetika desain dengan performa teknis untuk memastikan bisnis Anda tampil menonjol
@@ -91,7 +91,7 @@ const Home = () => {
                 </p>
                 <div className="space-y-8">
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-900">
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path
                           stroke-linecap="round"
@@ -109,7 +109,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="flex-shrink-0 w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-900">
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path
                           stroke-linecap="round"
@@ -144,7 +144,7 @@ const Home = () => {
               </div>
               <Link
                 to="/portfolio"
-                className="hidden md:block text-blue-600 font-bold hover:translate-x-2 transition-transform"
+                className="hidden md:block text-blue-900 font-bold hover:translate-x-2 transition-transform"
               >
                 Lihat Semua Proyek &rarr;
               </Link>
@@ -157,7 +157,7 @@ const Home = () => {
                     <button
                       key={cat.id}
                       onClick={() => setSelectedCategory(cat.id)}
-                      className={`filter-btn px-8 py-2.5 rounded-full border hover:border-blue-600 hover:text-blue-600 text-sm font-bold transition-all duration-300 focus:outline-none ${selectedCategory === cat.id ? "border-blue-600 text-blue-600" : "border-gray-200 text-gray-500"}`}
+                      className={`filter-btn px-8 py-2.5 rounded-full border hover:border-blue-600 hover:text-blue-900 text-sm font-bold transition-all duration-300 focus:outline-none ${selectedCategory === cat.id ? "border-blue-600 text-blue-900" : "border-gray-200 text-gray-500"}`}
                     >
                       {cat.name}
                     </button>
@@ -187,7 +187,7 @@ const Home = () => {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-fit px-6 py-2 border border-white rounded-full text-xs font-bold hover:bg-white hover:text-blue-600 transition-colors"
+                        className="w-fit px-6 py-2 border border-white rounded-full text-xs font-bold hover:bg-white hover:text-blue-900 transition-colors"
                       >
                         Lihat Detail
                       </a>
@@ -254,7 +254,7 @@ const Home = () => {
                     onClick={() => handleFAQToggle(index)}
                   >
                     {faq.question}
-                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                   </button>
@@ -268,7 +268,7 @@ const Home = () => {
         </section>
 
         <section className="py-24 px-6">
-          <div className="max-w-7xl mx-auto text-center bg-blue-600 rounded-[3rem] py-20 px-10 relative overflow-hidden shadow-2xl shadow-blue-600/30">
+          <div className="max-w-7xl mx-auto text-center bg-blue-900 rounded-[3rem] py-20 px-10 relative overflow-hidden shadow-2xl shadow-blue-600/30">
             <div className="relative z-10">
               <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-8 tracking-tight">
                 Siap membuat brand Anda <br className="hidden md:block" />
@@ -280,7 +280,7 @@ const Home = () => {
               <Link
                 target="_blank"
                 to="https://wa.me/6285722513519?text=Halo%20Devnis%2C%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20layanan%20Anda."
-                className="inline-block px-12 py-5 bg-white text-blue-600 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl"
+                className="inline-block px-12 py-5 bg-white text-blue-900 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-xl"
               >
                 Mulai Diskusi Sekarang
               </Link>

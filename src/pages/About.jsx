@@ -11,12 +11,12 @@ const About = () => {
       <div>
         <header className="pt-48 pb-20 px-6">
           <div className="max-w-7xl mx-auto text-center">
-            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-600 text-xs font-bold tracking-widest uppercase mb-6">
+            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-900 text-xs font-bold tracking-widest uppercase mb-6">
               Tentang Devnis
             </span>
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
               Agensi bagi mereka yang <br />
-              <span className="text-blue-600">ingin melampaui batas.</span>
+              <span className="text-blue-900">ingin melampaui batas.</span>
             </h1>
             <p className="text-gray-500 text-lg md:text-xl max-w-2xl mb-8 mx-auto leading-relaxed">
               Didirikan pada tahun 2024, Devnis lahir dari kegelisahan akan dunia digital yang penuh dengan template
@@ -29,7 +29,7 @@ const About = () => {
         <section className="py-24 px-6 bg-gray-50/50 border-y border-gray-100">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
-              <h3 className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4">Visi Kami</h3>
+              <h3 className="text-blue-900 font-bold uppercase tracking-widest text-xs mb-4">Visi Kami</h3>
               <h2 className="text-3xl font-extrabold mb-6 leading-tight">Menaikkan standar web modern di Indonesia.</h2>
               <p className="text-gray-500 leading-relaxed">
                 Kami memimpikan dunia digital di mana performa dan estetika berjalan beriringan tanpa kompromi. Fokus
@@ -38,7 +38,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-4">Misi Kami</h3>
+              <h3 className="text-blue-900 font-bold uppercase tracking-widest text-xs mb-4">Misi Kami</h3>
               <h2 className="text-3xl font-extrabold mb-6 leading-tight">
                 Memberdayakan brand dengan teknologi presisi.
               </h2>
@@ -61,7 +61,7 @@ const About = () => {
               <div className="p-10 bg-white border border-gray-100 rounded-2xl hover:shadow-2xl hover:shadow-blue-600/5 transition-all duration-500 group">
                 <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
                   <svg
-                    className="w-6 h-6 text-blue-600 group-hover:text-white"
+                    className="w-6 h-6 text-blue-900 group-hover:text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ const About = () => {
               <div className="p-10 bg-white border border-gray-100 rounded-2xl hover:shadow-2xl hover:shadow-blue-600/5 transition-all duration-500 group">
                 <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
                   <svg
-                    className="w-6 h-6 text-blue-600 group-hover:text-white"
+                    className="w-6 h-6 text-blue-900 group-hover:text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -107,7 +107,7 @@ const About = () => {
               <div className="p-10 bg-white border border-gray-100 rounded-2xl hover:shadow-2xl hover:shadow-blue-600/5 transition-all duration-500 group">
                 <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
                   <svg
-                    className="w-6 h-6 text-blue-600 group-hover:text-white"
+                    className="w-6 h-6 text-blue-900 group-hover:text-white"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

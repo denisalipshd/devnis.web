@@ -20,7 +20,7 @@ const Portfolio = () => {
         <header className="pt-48 pb-16 px-6">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
-              Karya Pilihan <span className="text-blue-600">Kami.</span>
+              Karya Pilihan <span className="text-blue-900">Kami.</span>
             </h1>
             <p className="text-gray-500 text-lg md:text-xl max-w-2xl mb-8 mx-auto leading-relaxed">
               Eksplorasi proyek-proyek digital yang telah kami kerjakan untuk berbagai industri, mulai dari e-commerce
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <button
                   key={cat.id}
                   onClick={() => setSelectedCategory(cat.id)}
-                  className={`filter-btn px-8 py-2.5 rounded-full border hover:border-blue-600 hover:text-blue-600 text-sm font-bold transition-all duration-300 focus:outline-none ${selectedCategory === cat.id ? "border-blue-600 text-blue-600" : "border-gray-200 text-gray-500"}`}
+                  className={`filter-btn px-8 py-2.5 rounded-full border hover:border-blue-600 hover:text-blue-900 text-sm font-bold transition-all duration-300 focus:outline-none ${selectedCategory === cat.id ? "border-blue-600 text-blue-900" : "border-gray-200 text-gray-500"}`}
                 >
                   {cat.name}
                 </button>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-fit px-6 py-2 border border-white rounded-full text-xs font-bold hover:bg-white hover:text-blue-600 transition-colors"
+                        className="w-fit px-6 py-2 border border-white rounded-full text-xs font-bold hover:bg-white hover:text-blue-900 transition-colors"
                       >
                         Lihat Detail
                       </a>
